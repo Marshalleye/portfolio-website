@@ -1,0 +1,28 @@
+<header class="siteHeader"
+  id="SiteHeader">
+  <h1 class="siteHeader_title">Nazar Kapushchak</h1>
+  <p class="siteHeader_label">Software Developer</p>
+  <nav class="siteHeader_nav"
+    x-data="">
+    <ol>
+      <li>
+        <div
+          *ngIf="title === 'home'">●</div><a class="_text"
+          routerLink="/home"
+          *ngIf="title !== 'home'">Home</a>
+      </li>
+      <li>
+        <div
+          *ngIf="title === 'project'">●</div><a class="_text"
+          routerLink="/projects"
+          *ngIf="title !== 'project'">Projects</a>
+      </li>
+      <li>
+        <div
+          *ngIf="title === 'info'">●</div><a class="_text"
+          routerLink="/info"
+          *ngIf="title !== 'info'">Info</a>
+      </li>
+    </ol>
+  </nav>
+</header>
