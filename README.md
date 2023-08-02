@@ -9,7 +9,7 @@ I am a dedicated and versatile software developer with a strong background in co
 # Skills
 In my journey as a software developer, I have honed various technical and soft skills to excel in this ever-evolving field. Some of the skills that I possess include:
 
-<p>Programming Languages: JavaScript, Java, Node, TypeScript;</p>
+<p>Programming Languages: JavaScript, Java, Node, TypeScript;</p> \n
 <p>Frontend Development: HTML, CSS, React, Angular;</p>
 <p>Backend Development: Node.js, Express, Java, Java Code, JavaFX, Java Spring Boot;</p>
 <p>Mobile App Development: XCode, Android Studio, Ionic;</p>
