@@ -9,13 +9,13 @@ I am a dedicated and versatile software developer with a strong background in co
 # Skills
 In my journey as a software developer, I have honed various technical and soft skills to excel in this ever-evolving field. Some of the skills that I possess include:
 
-Programming Languages: JavaScript, Java, Node, TypeScript;
-Frontend Development: HTML, CSS, React, Angular;
-Backend Development: Node.js, Express, Java, Java Code, JavaFX, Java Spring Boot;
-Mobile App Development: XCode, Android Studio, Ionic;
-Testing Framework: Karma, Jasmine, Cypress;
-Database Management: MySQL, MongoDB, PostgreSQL, PL/SQL;
-Cloud Technologies: AWS, Azure, Google Cloud Platform;
-Version Control: Git, GitHub;
-Problem-Solving: Analytical thinking, algorithm design, Fast learner;
-Collaboration: Agile methodologies, Scrum, Jira;
+<p>Programming Languages: JavaScript, Java, Node, TypeScript;</p>
+<p>Frontend Development: HTML, CSS, React, Angular;</p>
+<p>Backend Development: Node.js, Express, Java, Java Code, JavaFX, Java Spring Boot;</p>
+<p>Mobile App Development: XCode, Android Studio, Ionic;</p>
+<p>Testing Framework: Karma, Jasmine, Cypress;</p>
+<p>Database Management: MySQL, MongoDB, PostgreSQL, PL/SQL;</p>
+<p>Cloud Technologies: AWS, Azure, Google Cloud Platform;</p>
+<p>Version Control: Git, GitHub;</p>
+<p>Problem-Solving: Analytical thinking, algorithm design, Fast learner;</p>
+<p>Collaboration: Agile methodologies, Scrum, Jira;</p>
