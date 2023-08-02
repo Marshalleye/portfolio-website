@@ -1,0 +1,24 @@
+.wave-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+svg.wave-bottom {
+  transform: rotate(180deg);
+}
