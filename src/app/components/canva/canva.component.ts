@@ -3,9 +3,10 @@ import { WaveComponent } from './canva.enum';
 import anime from 'animejs/lib/anime.es.js';
 
 @Component({
-  selector: 'app-canva',
-  templateUrl: './canva.component.html',
-  styleUrls: ['./canva.component.scss']
+    selector: 'app-canva',
+    templateUrl: './canva.component.html',
+    styleUrls: ['./canva.component.scss'],
+    standalone: false
 })
 export class CanvaComponent implements OnInit {
   ngOnInit(): void {

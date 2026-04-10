@@ -6,22 +6,34 @@
     x-data="">
     <ol>
       <li>
-        <div
-          *ngIf="title === 'home'">●</div><a class="_text"
-          routerLink="/home"
-          *ngIf="title !== 'home'">Home</a>
+        @if (title === 'home') {
+          <div
+          >●</div>
+          }@if (title !== 'home') {
+          <a class="_text"
+            routerLink="/home"
+          >Home</a>
+        }
       </li>
       <li>
-        <div
-          *ngIf="title === 'project'">●</div><a class="_text"
-          routerLink="/projects"
-          *ngIf="title !== 'project'">Projects</a>
+        @if (title === 'project') {
+          <div
+          >●</div>
+          }@if (title !== 'project') {
+          <a class="_text"
+            routerLink="/projects"
+          >Projects</a>
+        }
       </li>
       <li>
-        <div
-          *ngIf="title === 'info'">●</div><a class="_text"
-          routerLink="/info"
-          *ngIf="title !== 'info'">Info</a>
+        @if (title === 'info') {
+          <div
+          >●</div>
+          }@if (title !== 'info') {
+          <a class="_text"
+            routerLink="/info"
+          >Info</a>
+        }
       </li>
     </ol>
   </nav>
