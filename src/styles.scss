@@ -296,6 +296,10 @@ a {
 }
 
 
+[data-page="projects"] .project {
+  white-space: normal;
+}
+
 .project {
   padding: calc(var(--pad)*2 + 96px) calc(var(--pad)*2);
   text-align: right;
@@ -303,6 +307,18 @@ a {
 
   &_heading {
     font-weight: 500;
+  }
+
+  &_heading-spaced {
+    margin-top: 3rem;
+  }
+
+  &_note {
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    opacity: 0.85;
+    text-align: right;
   }
 
   &_list {
