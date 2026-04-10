@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "build:github-pages": "ng build --configuration production --base-href=/",
-    "sync:github-io": "npm run build:github-pages && bash scripts/sync-github-io.sh",
+    "sync:github-io": "bash scripts/sync-github-io.sh",
+    "deploy:github-io": "bash scripts/sync-github-io.sh --push",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
