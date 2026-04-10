@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, provideZoneChangeDetection } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -14,7 +14,7 @@ import { FacadeComponent } from './components/facade/facade.component';
 @NgModule({
   declarations: [AppComponent, CanvaComponent, ProjectsComponent, InfoComponent, HomeComponent, HeaderComponent, FacadeComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, NoopAnimationsModule],
-  providers: [],
+  providers: [provideZoneChangeDetection()],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

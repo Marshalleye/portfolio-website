@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-facade',
-  templateUrl: './facade.component.html',
-  styleUrls: ['./facade.component.scss']
+    selector: 'app-facade',
+    templateUrl: './facade.component.html',
+    styleUrls: ['./facade.component.scss'],
+    standalone: false
 })
 export class FacadeComponent {
   opacityValue = 1;

@@ -12,8 +12,8 @@
 body {
   background-color: var(--c-bg);
   font-family: "Neue-Montreal-Thin";
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 650;
+  font-size: 15px;
   font-feature-settings: "palt";
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
@@ -220,13 +220,13 @@ a {
 
   &_title {
     margin: -0.1em 0 0 -0.04em;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 30px;
   }
 
   &_label {
     margin-top: 5px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: large;
   }
 
@@ -302,7 +302,7 @@ a {
   white-space: nowrap;
 
   &_heading {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   &_list {
@@ -314,7 +314,7 @@ a {
   }
 
   &_title {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 30px;
     text-align: right;
   }
